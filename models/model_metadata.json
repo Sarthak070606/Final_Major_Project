@@ -1,0 +1,32 @@
+{
+    "best_model_name": "random_forest",
+    "feature_columns": [
+        "wl_raw",
+        "wl_lag_1",
+        "wl_lag_4",
+        "wl_lag_28",
+        "wl_lag_120",
+        "wl_roll_mean_4",
+        "wl_roll_mean_28",
+        "wl_roll_mean_120",
+        "wl_roll_std_4",
+        "wl_roll_std_28",
+        "wl_roll_std_120",
+        "month",
+        "day_of_year",
+        "hour",
+        "month_sin",
+        "month_cos",
+        "doy_sin",
+        "doy_cos",
+        "latitude",
+        "longitude"
+    ],
+    "target_column": "target_wl_t_plus_1",
+    "validation_mae": 0.2237825209534391,
+    "random_seed": 42,
+    "training_sample_limit": 250000,
+    "training_rows_used": 250000,
+    "validation_rows_used": 614215,
+    "forecast_horizon": "Next available observation; not guaranteed to be exactly six hours."
+}

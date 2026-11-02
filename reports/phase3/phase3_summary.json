@@ -1,0 +1,20 @@
+{
+    "total_records": 4097128,
+    "station_count": 1379,
+    "district_count": 52,
+    "first_date": "2021-05-08 18:00:00",
+    "last_date": "2026-09-02 06:00:00",
+    "years_available": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+    ],
+    "latest_reading_count": 1379,
+    "quarterly_summary_rows": 12281,
+    "historical_2020_2024_available": false,
+    "2026_records": 157752,
+    "note": "These are descriptive summaries of available telemetry records. They do not establish exact six-hour coverage or water quality."
+}

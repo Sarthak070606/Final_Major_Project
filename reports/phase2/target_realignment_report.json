@@ -1,0 +1,10 @@
+{
+  "input_file": "C:\\Users\\Sarthak jain\\Desktop\\major_project_phase_one\\data\\processed\\phase2\\features_clean.parquet",
+  "output_file": "C:\\Users\\Sarthak jain\\Desktop\\major_project_phase_one\\data\\processed\\phase2\\features_clean_v2.parquet",
+  "n_rows": 4097128,
+  "n_stations": 1379,
+  "n_extreme_flagged": 1456,
+  "date_min": "2021-05-08 18:00:00",
+  "date_max": "2026-09-02 06:00:00",
+  "note": "target_wl_t_plus_1 recalculated as the next chronological wl_raw of the same station. Last observation of each station has missing target and was removed. Signed values preserved."
+}

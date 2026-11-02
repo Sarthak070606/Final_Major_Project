@@ -1,0 +1,5 @@
+{
+  "features_file": "C:\\Users\\Sarthak jain\\Desktop\\major_project_phase_one\\data\\processed\\features_lag_rolling.parquet",
+  "stations_master": "C:\\Users\\Sarthak jain\\Desktop\\major_project_phase_one\\data\\interim\\stations_master.parquet",
+  "scientific_note": "Original signed wl_raw values are preserved. No automatic absolute-value conversion was performed. A high negative reading rate alone does not establish the official CGWB measurement convention."
+}

@@ -1,0 +1,56 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/raw/
+data/interim/
+data/processed/
+
+# Model binaries
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Training logs
+catboost_info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+
+# Temporary and backup files
+*.bak
+*.tmp
+*.old
+*.zip
+
+# Local-only reports
+reports/raw_outlier_verification.txt
+reports/split_data_code.txt
+reports/phase2/phase1_inspection.json
+reports/phase2/test_report.json
+reports/phase3/latest_station_readings.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
